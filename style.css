@@ -1,0 +1,70 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+header {
+  height: 10rem;
+  background-color: rgb(233, 233, 233);
+}
+
+#logo {
+  font-size: 2.4rem;
+  padding: 3rem;
+}
+
+main {
+  margin-top: -1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#agendamento {
+  width: 40vw;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(252, 241, 199);
+}
+
+ul {
+  margin-top: 1rem;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 0.5rem;
+  margin: 0.5rem 5rem 0rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 20rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+#caixa {
+  width: 70vw;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(215, 231, 255);
+}
+
+select {
+  background-color: #465b61;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
